@@ -1,5 +1,5 @@
 {
-	"name": "xpaw/php-source-query-class",
+	"name": "sunxyw/php-source-query-class",
 	"description": "PHP library to query and send RCON commands to servers based on \"Source Engine Query\" protocol",
 	"homepage": "https://github.com/xPaw/PHP-Source-Query",
 	"type": "library",
