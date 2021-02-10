@@ -42,7 +42,7 @@
 			$this->Port    = $Port;
 			$this->Address = $Address;
 			
-			$this->Socket = @FSockOpen( 'udp://' . $Address, $Port, $ErrNo, $ErrStr, $Timeout );
+			$this->Socket = @PFSockOpen( 'udp://' . $Address, $Port, $ErrNo, $ErrStr, $Timeout );
 			
 			if( $ErrNo || $this->Socket === false )
 			{
